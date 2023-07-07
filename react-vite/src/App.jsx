@@ -1,18 +1,12 @@
 import React from 'react'
-import './App.css'
 
-// Pages Load
-import Header from './pages/Header/Header'
-import Footer from './pages/Footer/Footer'
-
-function App() {
+// Page Import
+import Home from './pages/Home/Home'
+const App = () => {
   return (
-    <>
-      <div>
-        <Header />
-        <Footer />
-      </div>
-    </>
+    <div>
+      <Home />
+    </div>
   )
 }
 
