@@ -5,15 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'dark': '#0B0C0E',
-      'green': '#08d665',
-      'metal': '#565584',
-    },
+    
     extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        'dark': '#0B0C0E',
+        'dark-light': '#131617',
+        'green': '#08d665',
+        'metal': '#565584',
+      },
       fontFamily: {
         oswald: ['Oswald'],
         rubik: ['Rubik'],
