@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-    max-width: 1170px;
+.container {
+  max-width: 1170px;
+}
+
+/* progress bar */
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #08d665;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #fff;
+}
+.CircularProgressbar-text {
+  fill: yellow;
+}
+.CircularProgressbar .CircularProgressbar-path {
+  fill: green;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #fff;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
 }
