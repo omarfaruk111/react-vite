@@ -11,6 +11,7 @@ export default {
         transparent: 'transparent',
         current: 'currentColor',
         'white': '#ffffff',
+        'white-deep': '#999999',
         'dark': '#0B0C0E',
         'dark-light': '#131617',
         'green': '#08d665',
