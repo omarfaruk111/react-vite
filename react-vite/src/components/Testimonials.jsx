@@ -1,4 +1,5 @@
 import React from 'react'
+import Slider from './Slider'
 
 const Testimonials = () => {
   return (
@@ -18,6 +19,9 @@ const Testimonials = () => {
         Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit
         </p>
       </div>
+    </div>
+    <div className='text-white'>
+        <Slider />
     </div>
     </div>
     </div>
