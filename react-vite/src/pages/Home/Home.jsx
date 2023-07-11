@@ -3,18 +3,18 @@ import About from '../../components/About'
 import Service from '../../components/Service'
 import Skill from '../../components/Skill'
 import Project from '../../components/Project'
-import Testimonials from '../../components/Testimonials'
 import Pricing from '../../components/Pricing'
 import Blog from '../../components/Blog'
+import Travel from '../../components/Travel'
 
 const Home = () => {
   return (
     <>
-      <About/>
+      <About />
       <Skill />
-      <Service/>
+      <Service />
       <Project />
-      <Testimonials />
+      <Travel />
       <Pricing />
       <Blog />
     </>
