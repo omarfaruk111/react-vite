@@ -41,7 +41,7 @@ export const SliderComp = ({
             {data?.length > 0 &&
               data?.map((item, index) => (
                 <a
-                  href="https://blog-gray-zeta.vercel.app/"
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
