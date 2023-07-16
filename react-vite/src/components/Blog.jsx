@@ -9,7 +9,7 @@ const Blog = () => {
         <h3 className="text-green font-medium font-rubik text-base uppercase">
         RECENT NEWS DESK
         </h3>
-        <h2 className="font-oswald text-white text-5xl font-semibold">
+        <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
         LASTET NEWS & <span className="text-green">BLOGS</span>
         </h2>
       </div>

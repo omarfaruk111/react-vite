@@ -10,7 +10,7 @@ const Travel = () => {
             <h3 className="text-green font-medium font-rubik text-base uppercase">
               Travel
             </h3>
-            <h2 className="font-oswald text-white text-5xl font-semibold">
+            <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
               HAPPY <span className="text-green">TRAVEL</span>
             </h2>
           </div>

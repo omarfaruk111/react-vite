@@ -10,7 +10,7 @@ const Skill = () => {
             <h3 className="text-green font-medium font-rubik text-base uppercase">
               My Experience
             </h3>
-            <h2 className="font-oswald text-white text-5xl font-semibold">
+            <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
               EXPERIENCE AND <span className="text-green">SKILL</span>
             </h2>
           </div>

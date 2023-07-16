@@ -10,7 +10,7 @@ const Service = () => {
             <h3 className="text-green font-medium font-rubik text-base uppercase">
             WHAT WE DO
             </h3>
-            <h2 className="font-oswald text-white text-5xl font-semibold">
+            <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
             SERVICES AND <span className="text-green">SOLUTIONS</span>
             </h2>
           </div>

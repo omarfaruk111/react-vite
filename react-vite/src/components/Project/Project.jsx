@@ -9,7 +9,7 @@ const Project = () => {
         <h3 className="text-green font-medium font-rubik text-base uppercase">
         WORKING PROCESS
         </h3>
-        <h2 className="font-oswald text-white text-5xl font-semibold">
+        <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
         LASTET WORKING <span className="text-green">PROJECT</span>
         </h2>
       </div>
