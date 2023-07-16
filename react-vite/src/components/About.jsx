@@ -7,9 +7,9 @@ import Button from '../components/Button'
 const About = () => {
   return (
     <>
-    <div className='bg-dark pt-32 pb-32'>
-        <div className="container m-auto flex flex-col xl:flex-row">
-            <div className="w-full xl:w-1/2 pr-28 relative">
+    <div className='bg-dark pt-32 pb-32 lg:pl-4 lg:pr-4'>
+        <div className="container m-auto flex flex-row md:flex-col">
+            <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full md:mb-16 pr-28 relative">
                <img className='relative z-50' src={about} alt="About" />
                 <span className='absolute -left-10 -right-20 top-0 -z-0'>
                   <img src={aboutbgshape} alt="aboutbgshape" />
@@ -18,7 +18,7 @@ const About = () => {
                   <img src={aboutshape} alt="aboutshape" />
                 </span>
             </div>
-            <div className="w-full xl:w-1/2 flex flex-col justify-center">
+            <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col justify-center">
                 <h2 className='font-oswald text-white text-5xl font-semibold'>FAILURE IS THE CONDIMENT THAT GIVES <span className='text-green'>SUCCESS</span></h2>
                 <p className='font-rubik text-base text-white mt-10 mb-10'>Spend more time focusing on the important aspects of your business. Turn to McCartney HR LLC in Brooklyn, NY for HR solutions. As an advanced virtual HR company, we are offering online HR systems that can be customized depending on your business needs.</p>
                 <Button />

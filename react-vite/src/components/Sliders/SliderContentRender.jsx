@@ -1,4 +1,4 @@
-export const FullWidthBgImage = ({
+export const SliderContentRender = ({
   image,
   label,
   text,

@@ -3,10 +3,10 @@ import Progress from './Progress'
 
 const Skill = () => {
   return (
-    <div className="bg-dark pb-32 pt-32">
+    <div className="bg-dark pb-32 pt-32 lg:pl-4 lg:pr-4">
       <div className="container m-auto flex flex-col">
-        <div className="flex flex-row">
-          <div className="w-full xl:w-1/2">
+        <div className="flex flex-row sm:flex-col">
+          <div className="w-full xl:w-1/2 sm:w-full">
             <h3 className="text-green font-medium font-rubik text-base uppercase">
               My Experience
             </h3>
@@ -14,15 +14,15 @@ const Skill = () => {
               EXPERIENCE AND <span className="text-green">SKILL</span>
             </h2>
           </div>
-          <div className="w-full xl:w-1/2 ">
-            <p className="border-l-2 border-green pl-10 font-rubik text-lg text-white">
+          <div className="w-full xl:w-1/2 sm:w-full">
+            <p className="border-l-2 border-green sm:border-0 pl-10 sm:pl-0 sm:mt-5 font-rubik text-lg text-white">
               Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint
               Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
             </p>
           </div>
         </div>
-        <div className="flex flex-row mt-16 gap-7">
-          <div className="w-full xl:w-1/4">
+        <div className="flex flex-row mt-16 gap-7 md:flex-wrap">
+          <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
             <div className="hover:bg-dark-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
@@ -36,7 +36,7 @@ const Skill = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:w-1/4">
+          <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
             <div className="hover:bg-dark-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
@@ -50,7 +50,7 @@ const Skill = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:w-1/4">
+          <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
             <div className="hover:bg-dark-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
@@ -64,7 +64,7 @@ const Skill = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:w-1/4">
+          <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
             <div className="hover:bg-dark-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)

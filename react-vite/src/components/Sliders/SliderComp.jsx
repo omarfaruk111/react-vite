@@ -2,7 +2,7 @@ import Slider from 'react-slick'
 // Import css files
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import { FullWidthBgImage } from './FullWidthBgImage'
+import { SliderContentRender } from './SliderContentRender'
 import { FiArrowRightCircle, FiArrowLeftCircle } from 'react-icons/fi'
 import { useResponsive } from './useResponsive'
 import { useRef } from 'react'
@@ -23,7 +23,7 @@ export const SliderComp = ({
     infinite: true,
     autoplay: autoplay,
     autoplaySpeed: autoplaySpeed,
-    slidesToShow: screenType === 'MOBILE' ? 2 : slideNum,
+    slidesToShow: screenType === 'MOBILE' ? 1 : slideNum,
     slidesToScroll: screenType === 'MOBILE' ? 2 : slideNum,
   }
 
@@ -45,7 +45,7 @@ export const SliderComp = ({
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FullWidthBgImage
+                  <SliderContentRender
                     image={item.image}
                     text={item.title}
                     label={label}
