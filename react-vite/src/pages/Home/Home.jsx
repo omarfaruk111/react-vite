@@ -6,15 +6,19 @@ import Project from '../../components/Project/Project'
 import Pricing from '../../components/Pricing'
 import Blog from '../../components/Blog'
 import Travel from '../../components/Travel'
+import Testimonial from '../../components/Testimonial'
+import Hero from '../../components/Hero/Hero'
 
 const Home = () => {
   return (
     <>
+      <Hero />
       <About />
       <Skill />
       <Service />
       <Project />
       <Travel />
+      <Testimonial />
       <Pricing />
       <Blog />
     </>
