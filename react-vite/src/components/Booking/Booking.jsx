@@ -20,13 +20,17 @@ const Booking = () => {
         fetchData();
     }, []);
 
-
   return (
-    <div className='booking'>
+    <div className='booking container m-auto grid grid-cols-4 gap-4'>
             {bookHotel.map((book, i) =>{
                 return (
-                    <div key={i}>
+                    <div className='' key={i}>
+                        <div className='item'>
                         <h2>{book.name}</h2>
+                        <p>{book.address}</p>
+                        <h4>{book.pricePerNight}</h4>
+                        {book.images.map((nestedImg, index)=> <img key={index} src={nestedImg.img} />)}
+                        </div>
                     </div>
                 )
             })}
