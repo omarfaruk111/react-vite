@@ -44,6 +44,7 @@ export const SliderComp = ({
                   href="#"
                   target="_blank"
                   rel="noreferrer"
+                  key={index}
                 >
                   <SliderContentRender
                     image={item.image}

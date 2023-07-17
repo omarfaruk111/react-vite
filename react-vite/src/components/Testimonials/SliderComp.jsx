@@ -45,6 +45,7 @@ export const SliderComp = ({
                     desc={item.desc}
                     borderRadius={'10px'}
                     height={'300px'}
+                    key={index}
                   />
               ))}
           </Slider>
