@@ -7,15 +7,15 @@ const Skill = () => {
       <div className="container m-auto flex flex-col">
         <div className="flex flex-row sm:flex-col">
           <div className="w-full xl:w-1/2 sm:w-full">
-            <h3 className="text-green font-medium font-rubik text-base uppercase">
+            <h3 className="text-praimary font-medium font-rubik text-base uppercase">
               My Experience
             </h3>
             <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
-              EXPERIENCE AND <span className="text-green">SKILL</span>
+              EXPERIENCE AND <span className="text-praimary">SKILL</span>
             </h2>
           </div>
           <div className="w-full xl:w-1/2 sm:w-full">
-            <p className="border-l-2 border-green sm:border-0 pl-10 sm:pl-0 sm:mt-5 font-rubik text-lg text-white">
+            <p className="border-l-2 border-praimary sm:border-0 pl-10 sm:pl-0 sm:mt-5 font-rubik text-lg text-white">
               Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint
               Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
             </p>
@@ -27,7 +27,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-green font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
                 GOOGLE CORPORATION.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -41,7 +41,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-green font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
                 APPLE PRODUCT CO.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -55,7 +55,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-green font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
                 LEAD DESIGNER MUSICSOFT
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -69,7 +69,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-green font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
                 LBRUNO MARS AS.
               </h3>
               <p className="text-white font-rubik font-normal text-base">

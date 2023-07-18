@@ -11,7 +11,7 @@ const FullWidthBgImage = ({
         <img className='w-28' src={image} alt=""/>
       </div>
       <div className='flex flex-col text-center'>
-        <h2 className='text-green font-semibold font-oswald text-2xl mt-4 mb-4'>{name}</h2>
+        <h2 className='text-praimary font-semibold font-oswald text-2xl mt-4 mb-4'>{name}</h2>
         <p className='text-white font-rubik font-normal text-base'>{desc}</p>
       </div>
     </div>

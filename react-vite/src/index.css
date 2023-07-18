@@ -18,7 +18,7 @@
   fill: yellow;
 }
 .CircularProgressbar .CircularProgressbar-path {
-  fill: green;
+  fill: praimary;
 }
 
 .CircularProgressbar .CircularProgressbar-text {
@@ -125,3 +125,11 @@
 }
 
 /* slider */
+.item .images img{
+  display: none;
+}
+
+.item .images img:first-child {
+  display: unset;
+  border-radius: 5px;
+}

@@ -19,7 +19,7 @@ const About = () => {
                 </span>
             </div>
             <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col justify-center">
-                <h2 className='font-oswald text-white text-5xl font-semibold sm:text-3xl'>FAILURE IS THE CONDIMENT THAT GIVES <span className='text-green'>SUCCESS</span></h2>
+                <h2 className='font-oswald text-white text-5xl font-semibold sm:text-3xl'>FAILURE IS THE CONDIMENT THAT GIVES <span className='text-praimary'>SUCCESS</span></h2>
                 <p className='font-rubik text-base text-white mt-10 mb-10'>Spend more time focusing on the important aspects of your business. Turn to McCartney HR LLC in Brooklyn, NY for HR solutions. As an advanced virtual HR company, we are offering online HR systems that can be customized depending on your business needs.</p>
                 <Button />
             </div>
