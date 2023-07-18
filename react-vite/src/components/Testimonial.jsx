@@ -3,7 +3,7 @@ import Testimonials from './Testimonials/Testimonials'
 
 const Testimonial = () => {
   return (
-    <div className="project bg-dark pb-32">
+    <div className="project bg-secondary pb-32">
       <div className="container m-auto flex flex-col">
         <div className="flex flex-row sm:flex-col">
           <div className="w-full xl:w-1/2 sm:w-full">

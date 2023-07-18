@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className='project bg-dark pb-32 lg:pl-4 lg:pr-4'>
+    <div className='project bg-secondary pb-32 lg:pl-4 lg:pr-4'>
     <div className='container m-auto flex flex-col'>
     <div className="flex flex-row sm:flex-col">
       <div className="w-full xl:w-1/2 sm:w-full">

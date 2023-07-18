@@ -3,7 +3,7 @@ import Progress from './Progress'
 
 const Skill = () => {
   return (
-    <div className="bg-dark pb-32 pt-32 lg:pl-4 lg:pr-4">
+    <div className="bg-secondary pb-32 pt-32 lg:pl-4 lg:pr-4">
       <div className="container m-auto flex flex-col">
         <div className="flex flex-row sm:flex-col">
           <div className="w-full xl:w-1/2 sm:w-full">
@@ -23,7 +23,7 @@ const Skill = () => {
         </div>
         <div className="flex flex-row mt-16 gap-7 md:flex-wrap">
           <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
-            <div className="hover:bg-dark-light p-4">
+            <div className="hover:bg-secondary-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
@@ -37,7 +37,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
-            <div className="hover:bg-dark-light p-4">
+            <div className="hover:bg-secondary-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
@@ -51,7 +51,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
-            <div className="hover:bg-dark-light p-4">
+            <div className="hover:bg-secondary-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
@@ -65,7 +65,7 @@ const Skill = () => {
             </div>
           </div>
           <div className="w-full xl:w-1/4 md:w-1/3 sm:w-full">
-            <div className="hover:bg-dark-light p-4">
+            <div className="hover:bg-secondary-light p-4">
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>

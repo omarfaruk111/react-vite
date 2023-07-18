@@ -11,7 +11,7 @@ const Hero = () => {
         <h2 className='text-white font-rubik font-normal text-3xl sm:text-base'>A Creative <span className='text-lime-500 font-medium'>Developer</span> From Bangladesh</h2>
         <div className='ml-40 border-l border-white pl-4 mt-12 sm:ml-0 sm:border-0 sm:pl-0'>
           <p className='text-white font-rubik font-normal text-lg mb-6'>I'm professional developer, and i'm very passionate and dedicated to my work.</p>
-          <a href="#"><button className='pt-3 pl-6 pb-3 pr-6 bg-white text-dark rounded-full'>More About Me</button></a>
+          <a href="#"><button className='pt-3 pl-6 pb-3 pr-6 bg-white text-secondary rounded-full'>More About Me</button></a>
         </div>
       </div>
       <div className='w-full xl:w-1/2 md:w-full'>

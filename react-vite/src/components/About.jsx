@@ -7,7 +7,7 @@ import Button from '../components/Button'
 const About = () => {
   return (
     <>
-    <div className='bg-dark pt-32 pb-32 lg:pl-4 lg:pr-4'>
+    <div className='bg-secondary pt-32 pb-32 lg:pl-4 lg:pr-4'>
         <div className="container m-auto flex flex-row md:flex-col">
             <div className="w-full xl:w-1/2 lg:w-1/2 sm:w-full md:w-full md:mb-16 pr-28 sm:pr-0 relative">
                <img className='relative z-50' src={about} alt="About" />
