@@ -1,9 +1,9 @@
 import React from 'react'
-import bloginfo from '../Json/BlogData.json'
+import BlogInfo from '../Json/BlogData.json'
 const Posts = (props) => {
   return (
     <div className='grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 md:gap-y-10 mt-16'>
-        {bloginfo.slice(0, 3).map((item, index) => (
+        {BlogInfo.slice(0, 3).map((item, index) => (
           <div key={index} className='text-white'>
             <div className='overflow-hidden'><img className='transition duration-300 ease-in-out hover:scale-110 cursor-pointer' src={(`${item.url}`)} alt="" /></div>
             <div className='flex flex-row justify-between items-center mt-4 mb-4'>
