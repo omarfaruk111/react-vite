@@ -4,7 +4,7 @@ import 'react-circular-progressbar/dist/styles.css'
 const Progress = () => {
   return (
     <>
-      <div className="flex flex-row flex-wrap gap-y-10 pt-32">
+      <div className="flex flex-row flex-wrap gap-y-10 pt-32 md:pt-24 sm:pt-20">
         <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
           <CircularProgressbar className="w-1/2" value={99} text={`${99}%`} />
           <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
