@@ -9,7 +9,7 @@
 /* progress bar */
 
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: #08d665;
+  stroke: #5d19df;
 }
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #fff;
@@ -32,9 +32,7 @@
 .service_s .card {
   position: relative;
   overflow: hidden;
-  width: 350px;
   margin: 0 auto;
-  background: #131617;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
@@ -47,7 +45,7 @@
   height: 100%;
   width: 100%;
   left: 0;
-  background: linear-gradient(to left, #036c32, #09c75f);
+  background: linear-gradient(to left, #5d19df, #a51b80cc);
   transition: 0.5s;
 }
 .service_s .card:hover .layer {
@@ -94,6 +92,14 @@
 .slick-dots li {
   margin: -20px 0 !important;
 }
+@media(max-width:868px){
+  /* .prev {
+    display: none;
+  }
+  .next {
+    display: none;
+  } */
+}
 /* full width image */
 .bg-image-container {
   position: relative;
@@ -132,4 +138,152 @@
 .item .images img:first-child {
   display: unset;
   border-radius: 5px;
+}
+
+/* hero animation  */
+.animation{
+width: 400px;
+height: 400px;
+}
+.animation span{
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+  z-index: 1;
+}
+.animation span:nth-child(1){
+  border-radius: 30% 70% 70% 30% / 30% 47% 53% 70% ;
+  background-color: rgb(134, 225, 6);
+  animation: animateSquare 6s linear infinite;
+}
+.animation span:nth-child(2){
+  border-radius: 52% 48% 52% 48% / 51% 20% 80% 49%  ;
+  background-color: rgb(198, 119, 10);
+  animation: animateSquare2 8s linear infinite;
+}
+.animation span:nth-child(3){
+  border-radius: 24% 76% 27% 73% / 51% 51% 49% 49%  ;
+  background-color: rgb(99, 4, 102);
+  animation: animateSquare3 4s linear infinite;
+}
+.animation span:nth-child(4){
+  border-radius: 62% 38% 44% 56% / 41% 75% 25% 59%  ;
+  background-color: rgb(29, 195, 14);
+  animation: animateSquare4 10s linear infinite;
+}
+.animation span:nth-child(5){
+  border-radius: 61% 19% 44% 56% / 58% 88% 12% 52%  ;
+  background-color: rgb(24, 2, 188);
+  animation: animateSquare5 5s linear infinite;
+  opacity: 0.2;
+}
+@keyframes animateSquare {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes animateSquare2 {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+@keyframes animateSquare3 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes animateSquare4 {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+@keyframes animateSquare5 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+/* Hero animate */
+.heroAnimate{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  }
+.heroAnimate span{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 0 4px;
+    border-radius: 93% 0% 100% 10% / 96% 10% 0% 0%  ;
+    background-color: rgb(207, 17, 17);
+    animation: animatebox 15s linear infinite;
+    animation-duration: calc(30s / span);
+
+  }
+  .heroAnimate span:nth-child(2){
+    border-radius: 61% 39% 55% 45% / 50% 48% 52% 50%   ;
+    background-color: rgb(203, 5, 238);
+    animation: animatebox 12s linear infinite;
+  }
+  .heroAnimate span:nth-child(3){
+    border-radius: 39% 61% 25% 75% / 35% 62% 38% 65%    ;
+    background-color: rgb(0, 221, 255);
+    animation: animatebox 25s linear infinite;
+  }
+  .heroAnimate span:nth-child(4){
+    border-radius: 76% 24% 53% 47% / 77% 34% 66% 23%    ;
+    background-color: rgb(246, 230, 16);
+    animation: animatebox 18s linear infinite;
+  }
+  .heroAnimate span:nth-child(5){
+    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
+    background-color: rgb(70, 219, 16);
+    animation: animatebox 30s linear infinite;
+  }
+  .heroAnimate span:nth-child(6){
+    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
+    background-color: rgb(30, 68, 238);
+    animation: animatebox 20s linear infinite;
+  }
+  .heroAnimate span:nth-child(7){
+    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
+    background-color: rgb(234, 47, 141);
+    animation: animatebox 30s linear infinite;
+  }
+  .heroAnimate span:nth-child(8){
+    border-radius: 68% 32% 100% 0% / 100% 37% 63% 0% ;
+    background-color: rgb(216, 241, 21);
+    animation: animatebox 17s linear infinite;
+  }
+  @keyframes animatebox {
+    0%{
+      transform: translateY(100vh) scale(0);
+    }
+    100%{
+      transform: translateY(-10vh) scale(0.3);
+    }
+  }
+/* about boxshadow */
+
+.aboutShado{
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+background: #9D50BB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

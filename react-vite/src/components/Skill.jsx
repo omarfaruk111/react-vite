@@ -24,7 +24,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 GOOGLE CORPORATION.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -38,7 +38,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 APPLE PRODUCT CO.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -52,7 +52,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 LEAD DESIGNER MUSICSOFT
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -66,7 +66,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="text-praimary font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 LBRUNO MARS AS.
               </h3>
               <p className="text-white font-rubik font-normal text-base">

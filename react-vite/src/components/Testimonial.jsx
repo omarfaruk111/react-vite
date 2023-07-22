@@ -17,7 +17,7 @@ const Testimonial = () => {
             </p>
         </div>
 
-        <div className="mt-16 text-white">
+        <div className="mt-16 text-white lg:pl-10 lg:pr-10 sm:pl-2 sm:pr-2">
           <Testimonials />
         </div>
       </div>

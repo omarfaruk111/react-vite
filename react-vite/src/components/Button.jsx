@@ -4,7 +4,7 @@ import { HiOutlineDownload } from "react-icons/hi";
 const Button = () => {
   return (
     <>
-      <button className='flex text-white bg-praimary text-lg font-medium font-rubik uppercase pr-6 pl-6 pt-3 pb-3 w-fit outline-none hover:bg-white hover:text-secondary border-none'>
+      <button className='flex text-white hover:text-white bg-gradient-to-r from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 text-lg font-medium font-rubik uppercase pr-6 pl-6 pt-3 pb-3 w-fit outline-none border-none'>
         Download CV <HiOutlineDownload className='mt-1 ml-2 text-lg'/>
         </button>
     </>
