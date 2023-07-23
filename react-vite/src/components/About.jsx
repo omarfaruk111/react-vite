@@ -20,7 +20,9 @@ const About = () => {
             </div>
             <div className="w-full xl:w-1/2 lg:w-1/2 md:w-full flex flex-col justify-center">
                 <h2 className='font-oswald text-white text-5xl font-semibold sm:text-3xl'>FAILURE IS THE CONDIMENT THAT GIVES <span className='bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2'>SUCCESS</span></h2>
-                <p className='font-rubik text-base text-white mt-10 mb-10'>Spend more time focusing on the important aspects of your business. Turn to McCartney HR LLC in Brooklyn, NY for HR solutions. As an advanced virtual HR company, we are offering online HR systems that can be customized depending on your business needs.</p>
+                <p className='font-rubik text-base text-white mt-10 mb-10'>
+                I am a developer with a passion for web design. I enjoy creating simple, clean and sleek websites that provide real value to the end user. Thousands of clients have achieved exceptional results while working with me. Our aim is to deliver work within time and budget that meets the client's requirements.
+                </p>
                 <Button />
             </div>
         </div>
