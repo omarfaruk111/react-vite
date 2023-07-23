@@ -24,8 +24,8 @@ export default {
 
     extend: {
       backgroundImage: {
-        'hero-pattern':
-          "linear-gradient(to right, #12042c, #380d5a)",
+        'hero-pattern': "linear-gradient(to right, #12042c, #380d5a)",
+        'gradient-236': 'linear-gradient(236deg, var(--tw-gradient-stops))'
       },
 
       colors: {
@@ -35,8 +35,8 @@ export default {
         'primary': '#f2ff49',
         'secondary': '#001219',
         'hover':'#2A9D8F',
-        'gradientColor1':'#5d19df',
-        'gradientColor2':'#a51b80cc',
+        'gradientColor1':'#5B5FDC',
+        'gradientColor2':'#A756F8',
         'gradientColor3':'',
         'subTColor':'#a51edd',
         'bgColor2':'#1D3557',

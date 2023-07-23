@@ -8,7 +8,7 @@ const Posts = (props) => {
             <div className='overflow-hidden'><img className='transition duration-300 ease-in-out hover:scale-110 cursor-pointer' src={(`${item.url}`)} alt="" /></div>
             <div className='flex flex-row justify-between items-center mt-4 mb-4'>
                 <h3 className='text-white text-base font-medium font-rubik'>{item.date}</h3>
-                <h3 className='text-white text-base font-medium font-rubik bg-gradient-to-r from-gradientColor1 to-gradientColor2 pt-2 pl-5 pb-2 pr-5 rounded-md cursor-pointer'>{item.cat}</h3>
+                <h3 className='text-white text-base font-medium font-rubik bg-gradient-236 from-gradientColor1 to-gradientColor2 pt-2 pl-5 pb-2 pr-5 rounded-md cursor-pointer'>{item.cat}</h3>
             </div>
             <h1 className='text-2xl font-bold text-white'><a href="#">{item.title}</a></h1>
           </div>

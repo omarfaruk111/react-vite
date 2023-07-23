@@ -11,7 +11,7 @@ const Skill = () => {
             My Experience
           </h3>
           <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
-            EXPERIENCE AND <span className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2">SKILL</span>
+            EXPERIENCE AND <span className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2">SKILL</span>
           </h2>
           <p className="pt-5 font-rubik text-lg text-white">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
@@ -24,7 +24,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 GOOGLE CORPORATION.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -38,7 +38,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 APPLE PRODUCT CO.
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -52,7 +52,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 LEAD DESIGNER MUSICSOFT
               </h3>
               <p className="text-white font-rubik font-normal text-base">
@@ -66,7 +66,7 @@ const Skill = () => {
               <h4 className="text-white font-medium uppercase text-sm font-rubik">
                 2011 - 2014 (UI DESIGNER)
               </h4>
-              <h3 className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
+              <h3 className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2 font-oswald font-semibold text-xl mt-3 mb-3">
                 LBRUNO MARS AS.
               </h3>
               <p className="text-white font-rubik font-normal text-base">

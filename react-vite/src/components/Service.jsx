@@ -20,7 +20,7 @@ const Service = () => {
             WHAT WE DO
             </h3>
             <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
-            SERVICES AND <span className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2">SOLUTIONS</span>
+            SERVICES AND <span className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2">SOLUTIONS</span>
             </h2>
             <p className="pt-5 font-rubik text-lg text-white">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident

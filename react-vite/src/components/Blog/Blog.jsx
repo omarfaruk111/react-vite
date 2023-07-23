@@ -10,7 +10,7 @@ const Blog = () => {
           RECENT NEWS DESK
           </h3>
           <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
-          LASTET NEWS & <span className="bg-clip-text text-transparent bg-gradient-to-r from-gradientColor1 to-gradientColor2">BLOGS</span>
+          LASTET NEWS & <span className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2">BLOGS</span>
           </h2>
           <p className="pt-5 font-rubik text-lg text-white">
           Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit
