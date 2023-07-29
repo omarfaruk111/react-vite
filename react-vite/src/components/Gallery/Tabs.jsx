@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tabs = ({filterCategory, tabsData}) => {
   return (
-    <div className='flex flex-row justify-center gap-5 pb-6'>
+    <div className='flex flex-row flex-wrap justify-center gap-5 pb-6'>
         {
             tabsData.map((category, index)=>{
                 return (

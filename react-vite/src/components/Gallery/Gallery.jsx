@@ -23,9 +23,11 @@ const Gallery = () => {
 
   return (
     <>
-        <div className="container m-auto">
-            <Tabs filterCategory={filterCategory} tabsData={tabsData}/>
-            <Items data={data} />
+        <div className='bg-secondary'>
+            <div className="container bg-secondary m-auto">
+                <Tabs filterCategory={filterCategory} tabsData={tabsData}/>
+                <Items data={data} />
+            </div>
         </div>
     </>
   )

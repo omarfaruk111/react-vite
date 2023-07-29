@@ -1,4 +1,5 @@
 import React from 'react'
+import Gallery from '../Gallery/Gallery'
 
 const Project = () => {
   return (
@@ -15,8 +16,8 @@ const Project = () => {
           Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit
           </p>
       </div>
-    <div className=''>
-
+    <div className='pt-12'>
+          <Gallery />
     </div>
     </div>
     </div>

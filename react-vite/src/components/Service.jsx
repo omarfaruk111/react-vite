@@ -24,7 +24,7 @@ const Service = () => {
             return (
               <div className='card lg:w-full flex flex-col items-center pb-6 pt-5 pl-5 pr-5 bg-[#18003e]'>
                 <div className='layer'></div>
-                <img className='w-fit z-10' src={service.url} alt="service1" />
+                <img className='w-full h-52 z-10' src={service.url} alt="service1" />
                 <h2 className='text-white z-10 font-semibold font-oswald text-[20px] leading-4 uppercase text-center mb-7 mt-7'>{service.title}</h2>
                 <p className='text-white z-10 font-rubik text-center text-lg font-normal'>{service.body}</p>
               </div>
