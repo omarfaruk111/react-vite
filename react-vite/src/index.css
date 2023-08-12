@@ -140,8 +140,8 @@
 
 /* hero animation  */
 .animation{
-width: 400px;
-height: 400px;
+  width: 10px;
+  height: 400px;
 }
 .animation span{
   position: absolute;
@@ -149,32 +149,32 @@ height: 400px;
   opacity: 0.8;
   z-index: 1;
 }
-.animation span:nth-child(1){
-  border-radius: 30% 70% 70% 30% / 30% 47% 53% 70% ;
-  background-color: rgb(134, 225, 6);
+.span1.animation span{
+  border-radius: 100%;
+  background: linear-gradient(45deg, #a613c1, #5ed315f2);
   animation: animateSquare 16s linear infinite;
 }
-.animation span:nth-child(2){
-  border-radius: 52% 48% 52% 48% / 51% 20% 80% 49%  ;
-  background-color: rgb(198, 119, 10);
-  animation: animateSquare2 18s linear infinite;
+.span2.animation span{
+  border-radius: 100%;
+  background: linear-gradient(45deg, #064aea, #b4b70ca9);
+  animation: animateSquare2 8s linear infinite;
 }
-.animation span:nth-child(3){
-  border-radius: 24% 76% 27% 73% / 51% 51% 49% 49%  ;
-  background-color: rgb(99, 4, 102);
-  animation: animateSquare3 24s linear infinite;
+.span3.animation span{
+  border-radius: 100%;
+  background: linear-gradient(45deg, #07d430, #b4b70ca9);
+  animation: animateSquare3 12s linear infinite;
 }
-.animation span:nth-child(4){
-  border-radius: 62% 38% 44% 56% / 41% 75% 25% 59%  ;
-  background-color: rgb(29, 195, 14);
-  animation: animateSquare4 20s linear infinite;
+.span4.animation span{
+  border-radius: 100%;
+  background: linear-gradient(45deg, #cc5211, #b4b70ca9);
+  animation: animateSquare4 18s linear infinite;
 }
-.animation span:nth-child(5){
-  border-radius: 61% 19% 44% 56% / 58% 88% 12% 52%  ;
-  background-color: rgb(24, 2, 188);
-  animation: animateSquare5 25s linear infinite;
-  opacity: 0.2;
+.span5.animation span{
+  border-radius: 100%;
+  background: linear-gradient(45deg, #07e6c0, #ad05cfa9);
+  animation: animateSquare5 15s linear infinite;
 }
+
 @keyframes animateSquare {
   0%{
     transform: rotate(0deg);
@@ -303,4 +303,32 @@ background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, F
 .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
   background: grey;
   margin-bottom: 30px;
+}
+
+/* about */
+.circle {
+  width: 80px;
+  height: 42px;
+  background: rgba(0, 255, 255, 0);
+  overflow: hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+}
+@keyframes circle{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+/* menu */
+@media(max-width:768px){
+  .navbar-start .hidden {
+    display: unset;
+  }
+  .navbar-start .hidden .btn-ghost{
+    display: unset;
+  }
 }

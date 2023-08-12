@@ -12,7 +12,7 @@ import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (
-    <>
+    <div className='-mt-20'>
       <Hero />
       <About />
       <Skill />
@@ -23,7 +23,7 @@ const Home = () => {
       <Pricing />
       <Blog />
       <Footer />
-    </>
+    </div>
   )
 }
 
