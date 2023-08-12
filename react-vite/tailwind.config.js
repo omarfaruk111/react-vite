@@ -45,6 +45,7 @@ export default {
       fontFamily: {
         oswald: ['Oswald'],
         rubik: ['Rubik'],
+        plus_jakarta_sans: ['Plus-Jakarta-Sans'],
       }
     },
   },
