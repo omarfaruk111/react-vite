@@ -13,10 +13,9 @@ const variants = {
 
 export const Navigation = () => (
     <motion.ul variants={variants}>
-        {itemIds.map(i => (
-            <MenuItem i={i} key={i} />
-        ))}
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Portfolio</li>
     </motion.ul>
 );
-
-const itemIds = [0, 1, 2, 3, 4];
