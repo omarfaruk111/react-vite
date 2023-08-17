@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 nav.animation-menu {
     position: absolute;
     top: 0;

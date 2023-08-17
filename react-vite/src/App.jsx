@@ -10,7 +10,7 @@ const App = () => {
     <div>
       {/* <Gallery /> */}
       <Example />
-      <Home />
+      {/* <Home /> */}
       {/* <Header /> */}
 
 
