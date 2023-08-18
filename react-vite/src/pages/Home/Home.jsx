@@ -9,7 +9,6 @@ import Travel from '../../components/Travel'
 import Testimonial from '../../components/Testimonial'
 import Hero from '../../components/Hero/Hero'
 import Footer from '../../components/Footer/Footer'
-import Layout from '../../Layout/Layout'
 
 const Home = () => {
   return (

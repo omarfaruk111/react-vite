@@ -5,7 +5,7 @@ const Service = () => {
     const [items, setItems] = useState(ServiceData);
 
   return (
-    <div className='service bg-secondary pb-32 md:pb-24 sm:pb-20 lg:pl-4 lg:pr-4'>
+    <div id='service' className='service bg-secondary pb-32 md:pb-24 sm:pb-20 lg:pl-4 lg:pr-4'>
       <div className='container m-auto flex flex-col'>
         <div className="flex flex-col text-center">
             <h3 className="font-medium font-rubik text-base uppercase text-subTColor">

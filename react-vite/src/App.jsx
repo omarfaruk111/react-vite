@@ -2,18 +2,12 @@ import React from 'react'
 
 // Page Import
 import Home from './pages/Home/Home'
-import Header from './components/Header/Header'
-import { Example } from './components/Menu/Example'
-// import Gallery from './components/Gallery/Gallery'
+import { Menu } from './components/Menu/Menu'
 const App = () => {
   return (
     <div>
-      {/* <Gallery /> */}
-      <Example />
-      {/* <Home /> */}
-      {/* <Header /> */}
-
-
+      <Menu />
+      <Home />
     </div>
   )
 }
