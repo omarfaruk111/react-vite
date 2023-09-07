@@ -4,7 +4,7 @@ import { motion, sync, useCycle } from "framer-motion";
 import { useDimensions } from "./use-dimensions";
 import { MenuToggle } from "./MenuToggle";
 import './Index.css';
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 
 const sidebar = {
     open: (height = 1000) => ({
@@ -34,7 +34,6 @@ const Menu = () => {
 
     return (
         <motion.nav className="animation-menu"
-            transition={{ ease: [0.17, 0.67, 0.83, 0.67], delay: 1 }}
             initial={false}
             animate={isOpen ? "open" : "closed"}
             custom={height}
@@ -43,8 +42,8 @@ const Menu = () => {
             <motion.div className="background" variants={sidebar} />
 
             {isOpen && (
-                <motion.div className="nav-li" transition={{ ease: [0.17, 0.67, 0.83, 0.67], delay: 1 }}>
-                    <motion.ul transition={{ ease: [0.17, 0.67, 0.83, 0.67], delay: 1 }}>
+                <motion.div className="nav-li">
+                    <motion.ul>
                         <li>
                             <Link
                                 onClick={() => toggleOpen(false)}

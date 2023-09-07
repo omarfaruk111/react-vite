@@ -36,29 +36,29 @@ const Hero = (props) => {
           </h2>
           <div className='mt-8'>
             <p className='text-white font-rubik font-normal text-2xl mb-6'>I'm professional developer, and i'm very passionate and dedicated to my work.</p>
-            <Button>About More</Button>
+            <Button buttonText="About More" />
           </div>
-      </div>
-      <div className='w-full lg:w-1/2 md:w-full sm:w-full z-40 relative'>
-        <div className='relative p-7 sm:p-0 z-40'>
-          <img className='w-full m-auto' src={HeroImg} alt="" />
         </div>
-        <div className='span1 animation absolute right-[20%] top-[15%] sm:w-[10px] sm:h-[260px]'>
+        <div className='w-full lg:w-1/2 md:w-full sm:w-full z-40 relative'>
+          <div className='relative p-7 sm:p-0 z-40'>
+            <img className='w-full m-auto' src={HeroImg} alt="" />
+          </div>
+          <div className='span1 animation absolute right-[20%] top-[15%] sm:w-[10px] sm:h-[260px]'>
             <span></span>
-        </div>
-        <div className='span2 animation absolute right-[20%] top-[15%] sm:w-[10px] sm:h-[260px]'>
+          </div>
+          <div className='span2 animation absolute right-[20%] top-[15%] sm:w-[10px] sm:h-[260px]'>
             <span></span>
-        </div>
-        <div className='span3 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
+          </div>
+          <div className='span3 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
             <span></span>
-        </div>
-        <div className='span4 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
+          </div>
+          <div className='span4 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
             <span></span>
-        </div>
-        <div className='span5 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
+          </div>
+          <div className='span5 animation absolute left-[20%] bottom-[15%] sm:w-[10px] sm:h-[260px]'>
             <span></span>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   )
