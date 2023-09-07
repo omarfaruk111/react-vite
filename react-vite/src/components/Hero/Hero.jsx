@@ -1,10 +1,11 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import HeroImg from '../../assets/images/omarfaruk.png'
+import Button from '../Button';
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div className='section bg-[#08031e] relative md:h-auto w-full overflow-hidden py-[200px] lg:py-32 md:pb-0 sm:pb-16'>
+    <div id='home' className='section bg-[#08031e] relative md:h-auto w-full overflow-hidden py-[160px] lg:py-32 md:pb-0 sm:pb-16'>
       <div className='heroAnimate'>
         <span></span>
         <span></span>
@@ -35,7 +36,7 @@ const Hero = () => {
           </h2>
           <div className='mt-8'>
             <p className='text-white font-rubik font-normal text-2xl mb-6'>I'm professional developer, and i'm very passionate and dedicated to my work.</p>
-            <a href="#"><button className='pt-3 pl-6 pb-3 pr-6 bg-gradient-236 from-gradientColor1 to-gradientColor2 text-white rounded-full'>More About Me</button></a>
+            <Button>About More</Button>
           </div>
       </div>
       <div className='w-full lg:w-1/2 md:w-full sm:w-full z-40 relative'>

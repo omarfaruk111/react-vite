@@ -3,7 +3,7 @@ import Progress from './Progress'
 
 const Skill = () => {
   return (
-    <div className="bg-secondary pb-32 pt-32 md:pt-24 sm:pt-20 md:pb-24 sm:pb-20 lg:pl-4 lg:pr-4">
+    <div id='experience' className="bg-secondary pb-32 pt-32 md:pt-24 sm:pt-20 md:pb-24 sm:pb-20 lg:pl-4 lg:pr-4">
       <div className="container m-auto flex flex-col">
 
       <div className="flex flex-col text-center">
