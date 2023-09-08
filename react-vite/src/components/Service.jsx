@@ -22,7 +22,7 @@ const Service = () => {
         <div className='service_s grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mt-14 gap-8'>
           {ServiceData.map((service, index) => {
             return (
-              <div key={index} className='card lg:w-full flex flex-col items-center pb-6 pt-5 pl-5 pr-5 bg-[#18003e]'>
+              <div key={index} className='card lg:w-full flex flex-col rounded items-center pb-6 pt-5 pl-5 pr-5 bg-[#18003e]'>
                 <div className='layer'></div>
                 <img className='w-full h-52 z-10' src={service.url} alt="service1" />
                 <h2 className='text-white z-10 font-semibold font-oswald text-[20px] leading-4 uppercase text-center mb-7 mt-7'>{service.title}</h2>

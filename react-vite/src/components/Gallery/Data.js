@@ -4,14 +4,14 @@ const data =[
         image:"https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1380&t=st=1690637821~exp=1690638421~hmac=6bfb0df0862fdfbed1d5479f9912f37777b92e23486e013e03f738934603b5ff",
         title:"Web development, programmer engineering and coding website.",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"frontend",
+        category:"wordpress",
     },
     {
         id:2,
         image:"https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg?w=996&t=st=1690637859~exp=1690638459~hmac=5104ed0aa460e9d2f8cd5181059a8345d662ff0add5cc410ea22ce01dd422fff",
         title:"Web design technology browsing programming concept.",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"frontend",
+        category:"react",
     },
     {
         id:3,
@@ -40,27 +40,6 @@ const data =[
         title:"Website design software provide modish template for online retail business",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         category:"backend",
-    },
-    {
-        id:7,
-        image:"https://img.freepik.com/premium-photo/composite-image-web-page-showing-statistics_1134-25091.jpg",
-        title:"Composite image of web page showing statistics.",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"backend",
-    },
-    {
-        id:8,
-        image:"https://img.freepik.com/premium-vector/data-protection-concept_46706-820.jpg?w=826",
-        title:"Vector data protection concept.",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"backend",
-    },
-    {
-        id:9,
-        image:"https://img.freepik.com/premium-vector/character-design-digital-technology-person-graphic-mobile-user-business-man-presented-with-low-poly-style-with-futuristic-element_46706-1117.jpg?w=1380",
-        title:"Character design of digital technology person.",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-        category:"database",
     }
 ]
 

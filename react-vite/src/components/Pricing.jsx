@@ -24,7 +24,7 @@ const Pricing = () => {
             <h3 className='text-white text-lg font-rubik font-normal mt-2 mb-8'>Lorem Ipsum is simply dummy text and typesetting industry.</h3>
             <h1 className='text-white font-normal font-rubik text-6xl'><span className='text-white'>$</span>19 <span className='text-white text-sm font-rubik font-normal'>/per month</span></h1>
             <a href="#"><button className='text-white hover:text-white bg-gradient-236 from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 font-rubik font-normal text-base w-full rounded-lg pt-2 pb-2 mt-8 mb-6'>Try 3 days for free</button></a>
-            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Lite includes:</h4>
+            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Basic includes:</h4>
             <ul>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>CMS integration</li>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>Email & SMS reminders</li>
@@ -36,7 +36,7 @@ const Pricing = () => {
             <h3 className='text-white text-lg font-rubik font-normal mt-2 mb-8'>Lorem Ipsum is simply dummy text and typesetting industry.</h3>
             <h1 className='text-white font-normal font-rubik text-6xl'><span className='text-white'>$</span>49 <span className='text-white text-sm font-rubik font-normal'>/per month</span></h1>
             <a href="#"><button className='text-white hover:text-white bg-gradient-236 from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 font-rubik font-normal text-base w-full rounded-lg pt-2 pb-2 mt-8 mb-6'>Try 3 days for free</button></a>
-            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Lite includes:</h4>
+            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Business includes:</h4>
             <ul>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>CMS integration</li>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>Email & SMS reminders</li>
@@ -48,7 +48,7 @@ const Pricing = () => {
             <h3 className='text-white text-lg font-rubik font-normal mt-2 mb-8'>Lorem Ipsum is simply dummy text and typesetting industry.</h3>
             <h1 className='text-white font-normal font-rubik text-6xl'><span className='text-white'>$</span>99 <span className='text-white text-sm font-rubik font-normal'>/per month</span></h1>
             <a href="#"><button className='text-white hover:text-white bg-gradient-236 from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 font-rubik font-normal text-base w-full rounded-lg pt-2 pb-2 mt-8 mb-6'>Try 3 days for free</button></a>
-            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Lite includes:</h4>
+            <h4 className='text-white text-lg font-rubik font-normal pb-4'>Enterprise includes:</h4>
             <ul>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>CMS integration</li>
               <li className='text-white font-normal text-sm font-rubik mb-2'><i></i>Email & SMS reminders</li>
