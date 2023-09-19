@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "job": {
+        "title": "Software Engineer",
+        "year": "2023",
+        "company": {
+          "title": "TechCorp",
+          "info": "A leading tech company specializing in software development."
+        }
+      },
+      "ui": {
+        "button": {
+          "text": "Apply Now",
+          "link": "https://example.com/apply"
+        },
+        "companyImage": {
+          "src": "https://example.com/company-logo.png",
+          "alt": "TechCorp Logo"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "job": {
+        "title": "Data Analyst",
+        "year": "2023",
+        "company": {
+          "title": "DataTech",
+          "info": "A data analytics company delivering actionable insights."
+        }
+      },
+      "ui": {
+        "button": {
+          "text": "Apply Now",
+          "link": "https://example.com/apply"
+        },
+        "companyImage": {
+          "src": "https://example.com/datatech-logo.png",
+          "alt": "DataTech Logo"
+        }
+      }
+    }
+  ]
+  
