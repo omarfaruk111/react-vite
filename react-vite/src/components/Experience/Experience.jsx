@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 const Experience = ({ item }) => {
     const { } = item;
     return (
-        <div>Experience</div>
+        <div className=''>
+
+        </div>
     )
 }
 
