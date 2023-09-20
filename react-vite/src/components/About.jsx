@@ -1,7 +1,7 @@
 import React from 'react'
 import about from '../assets/images/about01.png'
 import aboutbgshape from '../assets/images/about-bg-shape.png'
-import Button from '../components/Button'
+import ButtonTwo from '../components/ButtonTwo'
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
             <p className='font-rubik text-lg text-white mt-10 mb-10'>
               I am a developer with a passion for web design. I enjoy creating simple, clean and sleek websites that provide real value to the end user. Thousands of clients have achieved exceptional results while working with me. Our aim is to deliver work within time and budget that meets the client's requirements.
             </p>
-            <Button buttonText="Download"/>
+            <ButtonTwo buttonText="Download CV"/>
           </div>
         </div>
       </div>
