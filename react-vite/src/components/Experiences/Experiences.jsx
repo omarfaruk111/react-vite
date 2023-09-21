@@ -9,7 +9,7 @@ const Experiences = () => {
     }, [])
 
     return (
-        <div className='flex flex-row mt-16 gap-7 md:flex-wrap'>
+        <div className='flex flex-col mt-16 gap-7 md:flex-wrap'>
             {experience.map(item => <Experience key={item.id} item={item} />)}
         </div>
     )

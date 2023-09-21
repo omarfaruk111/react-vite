@@ -6,18 +6,6 @@ const Progress = () => {
     <>
       <div className="flex flex-row flex-wrap gap-y-10 pt-32 md:pt-24 sm:pt-20">
         <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
-          <CircularProgressbar className="w-1/2" value={99} text={`${99}%`} />
-          <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
-            HTML
-          </h2>
-        </div>
-        <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
-          <CircularProgressbar className="w-1/2" value={90} text={`${90}%`} />
-          <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
-            Tailwind
-          </h2>
-        </div>
-        <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
           <CircularProgressbar className="w-1/2" value={80} text={`${80}%`} />
           <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
             JavaScript
@@ -47,24 +35,7 @@ const Progress = () => {
             MongoDB
           </h2>
         </div>
-        <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
-          <CircularProgressbar className="w-1/2" value={89} text={`${89}%`} />
-          <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
-            PHP
-          </h2>
-        </div>
-        <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
-          <CircularProgressbar className="w-1/2" value={70} text={`${70}%`} />
-          <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
-            MYSQL
-          </h2>
-        </div>
-        <div className="w-1/5 sm:w-1/2 m-auto flex flex-col items-center">
-          <CircularProgressbar className="w-1/2" value={90} text={`${90}%`} />
-          <h2 className="text-white text-center font-oswald font-semibold text-xl mt-4">
-            Wordpress
-          </h2>
-        </div>
+
       </div>
     </>
   )
