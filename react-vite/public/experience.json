@@ -2,12 +2,13 @@
     {
       "id": 1,
       "job": {
-        "position": "Software Engineer",
+        "position": "Sr. Software Engineer",
         "year": "2022-Present",
         "job_type": "Full-Time",
         "src": "https://img.freepik.com/free-photo/beautiful-girl-handsome-man-standing-night-street-illuminated-signboards-neon-lights_613910-20598.jpg?w=1380&t=st=1689834611~exp=1689835211~hmac=4af6e5474efd7d8b7570cf3cde6da7d1ff95ee9bf13ad620a9bd2f0200f0ba35",
         "company": {
           "about": "About Company",
+          "company_name": "XYZ",
           "info": "A leading tech company specializing in software development. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         }
       }
@@ -15,12 +16,13 @@
     {
       "id": 2,
       "job": {
-        "position": "Software Engineer",
+        "position": "Jr. Software Engineer",
         "year": "2018-2021",
         "job_type": "Part-Time",
         "src": "https://img.freepik.com/free-photo/pensive-young-man-wearing-sports-hoodie-leaning-illuminated-signboard-street-night_613910-21202.jpg?t=st=1689834611~exp=1689835211~hmac=0c4c2130d4e05782c3c49d8a4719882583d3b9df9eab218293999c02dd5e6c58",
         "company": {
           "about": "About Company",
+          "company_name": "NJR Tech",
           "info": "A leading tech company specializing in software development. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         }
       }
