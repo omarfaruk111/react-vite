@@ -1,38 +1,22 @@
 import React from 'react'
-import { SliderComp } from './SliderComp'
-import Testmonials1 from '../../assets/images/testimonials1.png'
-import Testmonials2 from '../../assets/images/testimonials2.png'
-import Testmonials3 from '../../assets/images/testimonials3.png'
-
-const data = [
-  {
-    name: "Mark",
-    desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: Testmonials1,
-  },
-  {
-    name: "Ronaldo",
-    desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: Testmonials2,
-  },
-  {
-    name: "Faruk",
-    desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-    image: Testmonials3,
-  },
-
-]
+import Testimonial from './Testimonial'
 
 const Testimonials = () => {
   return (
-    <div className="main-container">
-    <SliderComp
-      autoplay={true}
-      autoplaySpeed={3000}
-      slideNum={2}
-      data={data}
-    />
-  </div>
+    <div id='testimonials' className="project bg-secondary pb-32 md:pb-24 sm:pb-20">
+      <div className="container m-auto flex flex-col">
+        <div className="flex flex-col text-center">
+            <h3 className="sub-title">Testimonials</h3>
+            <h2 className="title">Our Clients <span className="title-span">Feedback</span></h2>
+            <p className="para">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, <br/> Error Qui Enim Sit Ex Provident
+            </p>
+        </div>
+
+        <div className="mt-16 text-white lg:pl-10 lg:pr-10 sm:pl-2 sm:pr-2">
+          <Testimonial />
+        </div>
+      </div>
+    </div>
   )
 }
 

@@ -117,6 +117,14 @@ const Menu = () => {
                                 smooth={true}
                             >Blog</Link>
                         </li>
+                        <li>
+                            <Link
+                                onClick={() => toggleOpen(false)}
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                            >Contact</Link>
+                        </li>
                     </motion.ul>
                 </motion.div>
             )}

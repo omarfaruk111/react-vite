@@ -1,20 +1,19 @@
 import React, { useState } from 'react'
-import ServiceData from './Json/ServiceData'
+import ServiceData from '../Json/ServiceData'
 
 const Service = () => {
-  const [items, setItems] = useState(ServiceData);
 
   return (
-    <div id='service' className='service bg-secondary pb-32 md:pb-24 sm:pb-20 lg:pl-4 lg:pr-4'>
+    <div id='service' className='service sec pb-32 md:pb-24 sm:pb-20'>
       <div className='container m-auto flex flex-col'>
         <div className="flex flex-col text-center">
-          <h3 className="font-medium font-rubik text-base uppercase text-subTColor">
+          <h3 className="sub-title">
             WHAT WE DO
           </h3>
-          <h2 className="font-oswald text-white text-5xl font-semibold sm:text-3xl">
-            SERVICES AND <span className="bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2">SOLUTIONS</span>
+          <h2 className="title">
+            SERVICES AND <span className="title-span">SOLUTIONS</span>
           </h2>
-          <p className="pt-5 font-rubik text-lg text-white">
+          <p className="para">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione <br /> Reprehenderit, Error Qui Enim Sit Ex Provident
           </p>
         </div>

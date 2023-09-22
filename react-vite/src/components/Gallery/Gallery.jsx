@@ -23,7 +23,7 @@ const Gallery = () => {
 
   return (
     <>
-        <div className='bg-secondary'>
+        <div className='sec'>
             <div className="container bg-secondary m-auto">
                 <Tabs filterCategory={filterCategory} tabsData={tabsData}/>
                 <Items data={data} />

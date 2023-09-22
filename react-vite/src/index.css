@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+.sec{
+  @apply bg-secondary lg:pl-4 lg:pr-4;
+ }
+.title {
+  @apply font-rubik text-white text-[55px] leading-[70px] capitalize font-semibold sm:text-3xl;
+}
+.title-span {
+  @apply bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2;
+}
+
+.para{
+@apply pt-4 font-rubik text-lg text-white;
+}
+
+.sub-title{
+  @apply font-medium font-rubik text-base uppercase text-subTColor;
+}
+
+.button{
+  @apply flex text-white hover:text-white bg-gradient-236 from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 text-lg font-medium font-rubik uppercase pr-6 pl-6 pt-3 pb-3 w-fit outline-none border-none;
+}
+
 .container {
   max-width: 1170px;
 }
