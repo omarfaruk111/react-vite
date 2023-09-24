@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.sec{
+.sec {
   @apply bg-secondary lg:pl-4 lg:pr-4;
- }
+}
+
 .title {
   @apply font-rubik text-white text-[55px] leading-[70px] capitalize font-semibold sm:text-3xl;
 }
+
 .title-span {
   @apply bg-clip-text text-transparent bg-gradient-236 from-gradientColor1 to-gradientColor2;
 }
 
-.para{
-@apply pt-4 font-rubik text-lg text-white;
+.para {
+  @apply pt-4 font-rubik text-lg text-white;
 }
 
-.sub-title{
+.sub-title {
   @apply font-medium font-rubik text-base uppercase text-subTColor;
 }
 
-.button{
+.button {
   @apply flex text-white hover:text-white bg-gradient-236 from-gradientColor1 to-gradientColor2 hover:from-gradientColor2 hover:to-gradientColor1 text-lg font-medium font-rubik uppercase pr-6 pl-6 pt-3 pb-3 w-fit outline-none border-none;
+}
+
+.input-contact {
+  @apply w-full p-3 text-base font-normal font-rubik text-white bg-gray-600 border-0 outline-none rounded;
 }
 
 .container {
@@ -33,12 +39,15 @@
 .CircularProgressbar .CircularProgressbar-path {
   stroke: #5d19df;
 }
+
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #fff;
 }
+
 .CircularProgressbar-text {
   fill: yellow;
 }
+
 .CircularProgressbar .CircularProgressbar-path {
   fill: praimary;
 }
@@ -59,6 +68,7 @@
   text-align: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
+
 .service_s .card .layer {
   z-index: 1;
   position: absolute;
@@ -69,15 +79,19 @@
   background: linear-gradient(to left, #5d19df, #a51b80cc);
   transition: 0.5s;
 }
+
 .service_s .card:hover .layer {
   top: 0;
 }
+
 .service_s .card:hover h2 {
   color: #fff;
 }
+
 .service_s .card:hover p {
   color: #fff;
 }
+
 /* slider  */
 .main-container {
   width: 100%;
@@ -86,10 +100,12 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .wrapper {
   position: relative;
   width: 100%;
 }
+
 .prev {
   position: absolute;
   top: 150px;
@@ -98,6 +114,7 @@
   z-index: 10;
   cursor: pointer;
 }
+
 .next {
   position: absolute;
   top: 150px;
@@ -106,13 +123,16 @@
   z-index: 10;
   cursor: pointer;
 }
+
 .slick-slide {
   padding: 0 10px;
 }
+
 .slick-dots li {
   margin: -20px 0 !important;
 }
-@media(max-width:868px){
+
+@media(max-width:868px) {
   /* .prev {
     display: none;
   }
@@ -120,6 +140,7 @@
     display: none;
   } */
 }
+
 /* full width image */
 .bg-image-container {
   position: relative;
@@ -128,19 +149,20 @@
   background-size: cover;
   background-position: center;
 }
+
 .bg-image-container:hover {
   filter: grayscale(100%);
 }
+
 .gradient {
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.25) 50%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.25) 50%,
+      rgba(0, 0, 0, 0.5) 100%);
 }
+
 .text-container {
   max-width: 75%;
   position: absolute;
@@ -151,7 +173,7 @@
 }
 
 /* slider */
-.item .images img{
+.item .images img {
   display: none;
 }
 
@@ -161,168 +183,203 @@
 }
 
 /* hero animation  */
-.animation{
+.animation {
   width: 10px;
   height: 400px;
 }
-.animation span{
+
+.animation span {
   position: absolute;
   inset: 0;
   opacity: 0.8;
   z-index: 1;
 }
-.span1.animation span{
+
+.span1.animation span {
   border-radius: 100%;
   background: linear-gradient(45deg, #a613c1, #5ed315f2);
   animation: animateSquare 16s linear infinite;
 }
-.span2.animation span{
+
+.span2.animation span {
   border-radius: 100%;
   background: linear-gradient(45deg, #064aea, #b4b70ca9);
   animation: animateSquare2 8s linear infinite;
 }
-.span3.animation span{
+
+.span3.animation span {
   border-radius: 100%;
   background: linear-gradient(45deg, #07d430, #b4b70ca9);
   animation: animateSquare3 12s linear infinite;
 }
-.span4.animation span{
+
+.span4.animation span {
   border-radius: 100%;
   background: linear-gradient(45deg, #cc5211, #b4b70ca9);
   animation: animateSquare4 18s linear infinite;
 }
-.span5.animation span{
+
+.span5.animation span {
   border-radius: 100%;
   background: linear-gradient(45deg, #07e6c0, #ad05cfa9);
   animation: animateSquare5 15s linear infinite;
 }
 
 @keyframes animateSquare {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
+
 @keyframes animateSquare2 {
-  0%{
+  0% {
     transform: rotate(360deg);
   }
-  100%{
+
+  100% {
     transform: rotate(0deg);
   }
 }
+
 @keyframes animateSquare3 {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
+
 @keyframes animateSquare4 {
-  0%{
+  0% {
     transform: rotate(360deg);
   }
-  100%{
+
+  100% {
     transform: rotate(0deg);
   }
 }
+
 @keyframes animateSquare5 {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
 
 /* Hero animate */
-.heroAnimate{
+.heroAnimate {
   position: relative;
   display: flex;
   justify-content: space-between;
-  }
-.heroAnimate span{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    margin: 0 4px;
-    border-radius: 93% 0% 100% 10% / 96% 10% 0% 0%  ;
-    background-color: rgb(207, 17, 17);
-    animation: animatebox 15s linear infinite;
-    animation-duration: calc(30s / span);
+}
 
+.heroAnimate span {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 4px;
+  border-radius: 93% 0% 100% 10% / 96% 10% 0% 0%;
+  background-color: rgb(207, 17, 17);
+  animation: animatebox 15s linear infinite;
+  animation-duration: calc(30s / span);
+
+}
+
+.heroAnimate span:nth-child(2) {
+  border-radius: 61% 39% 55% 45% / 50% 48% 52% 50%;
+  background-color: rgb(203, 5, 238);
+  animation: animatebox 12s linear infinite;
+}
+
+.heroAnimate span:nth-child(3) {
+  border-radius: 39% 61% 25% 75% / 35% 62% 38% 65%;
+  background-color: rgb(0, 221, 255);
+  animation: animatebox 25s linear infinite;
+}
+
+.heroAnimate span:nth-child(4) {
+  border-radius: 76% 24% 53% 47% / 77% 34% 66% 23%;
+  background-color: rgb(246, 230, 16);
+  animation: animatebox 18s linear infinite;
+}
+
+.heroAnimate span:nth-child(5) {
+  border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%;
+  background-color: rgb(70, 219, 16);
+  animation: animatebox 30s linear infinite;
+}
+
+.heroAnimate span:nth-child(6) {
+  border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%;
+  background-color: rgb(30, 68, 238);
+  animation: animatebox 20s linear infinite;
+}
+
+.heroAnimate span:nth-child(7) {
+  border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%;
+  background-color: rgb(234, 47, 141);
+  animation: animatebox 30s linear infinite;
+}
+
+.heroAnimate span:nth-child(8) {
+  border-radius: 68% 32% 100% 0% / 100% 37% 63% 0%;
+  background-color: rgb(216, 241, 21);
+  animation: animatebox 17s linear infinite;
+}
+
+@keyframes animatebox {
+  0% {
+    transform: translateY(100vh) scale(0);
   }
-  .heroAnimate span:nth-child(2){
-    border-radius: 61% 39% 55% 45% / 50% 48% 52% 50%   ;
-    background-color: rgb(203, 5, 238);
-    animation: animatebox 12s linear infinite;
+
+  100% {
+    transform: translateY(-10vh) scale(0.3);
   }
-  .heroAnimate span:nth-child(3){
-    border-radius: 39% 61% 25% 75% / 35% 62% 38% 65%    ;
-    background-color: rgb(0, 221, 255);
-    animation: animatebox 25s linear infinite;
-  }
-  .heroAnimate span:nth-child(4){
-    border-radius: 76% 24% 53% 47% / 77% 34% 66% 23%    ;
-    background-color: rgb(246, 230, 16);
-    animation: animatebox 18s linear infinite;
-  }
-  .heroAnimate span:nth-child(5){
-    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
-    background-color: rgb(70, 219, 16);
-    animation: animatebox 30s linear infinite;
-  }
-  .heroAnimate span:nth-child(6){
-    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
-    background-color: rgb(30, 68, 238);
-    animation: animatebox 20s linear infinite;
-  }
-  .heroAnimate span:nth-child(7){
-    border-radius: 0% 100% 47% 53% / 0% 49% 51% 100%    ;
-    background-color: rgb(234, 47, 141);
-    animation: animatebox 30s linear infinite;
-  }
-  .heroAnimate span:nth-child(8){
-    border-radius: 68% 32% 100% 0% / 100% 37% 63% 0% ;
-    background-color: rgb(216, 241, 21);
-    animation: animatebox 17s linear infinite;
-  }
-  @keyframes animatebox {
-    0%{
-      transform: translateY(100vh) scale(0);
-    }
-    100%{
-      transform: translateY(-10vh) scale(0.3);
-    }
-  }
+}
+
 /* about boxshadow */
 
-.aboutShado{
-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-background: #9D50BB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.aboutShado {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background: #9D50BB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6E48AA, #9D50BB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /* Gallery  */
 .my-masonry-grid {
-  display: -webkit-box; /* Not needed if autoprefixing */
-  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -30px; /* gutter size offset */
+  margin-left: -30px;
+  /* gutter size offset */
   width: auto;
 }
+
 .my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
+  padding-left: 30px;
+  /* gutter size */
   background-clip: padding-box;
 }
 
 /* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+.my-masonry-grid_column>div {
+  /* change div to reference your elements you put in <Masonry> */
   background: grey;
   margin-bottom: 30px;
 }
@@ -336,21 +393,24 @@ background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, F
   margin: auto;
   animation: circle 6s linear infinite;
 }
-@keyframes circle{
-  0%{
+
+@keyframes circle {
+  0% {
     transform: rotate(360deg);
   }
-  100%{
+
+  100% {
     transform: rotate(0deg);
   }
 }
 
 /* menu */
-@media(max-width:768px){
+@media(max-width:768px) {
   .navbar-start .hidden {
     display: unset;
   }
-  .navbar-start .hidden .btn-ghost{
+
+  .navbar-start .hidden .btn-ghost {
     display: unset;
   }
 }
